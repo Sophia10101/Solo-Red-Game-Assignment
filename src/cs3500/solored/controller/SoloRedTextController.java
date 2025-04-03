@@ -12,7 +12,7 @@ import cs3500.solored.view.hw02.SoloRedGameTextView;
 /**
  * Class to represent a controller in the Red Seven game.
  * Used so game can be played with input and game state is outputted
- * to the user.
+ * to the user. testing testing
  */
 public class SoloRedTextController implements RedGameController {
   final Scanner scan; // java style complained about private

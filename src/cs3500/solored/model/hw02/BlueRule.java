@@ -28,11 +28,13 @@ public class BlueRule implements Rule {
         tiedPalettes.add(palettes.get(i));
         tiedPaletteIndex.add(i);
         winningIndex = i;
+        // testing code 
       }
       else if (uniqueColorCountInPalette == maxUniqueColorsInAllPalettes) {
         tiedPalettes.add(palettes.get(i));
         tiedPaletteIndex.add(i);
       }
+      // testing code 
 
     }
     if (tiedPalettes.size() > 1) {
